@@ -1,5 +1,4 @@
 <script>
-	import { page } from '$app/stores';
 	import { goto } from '$app/navigation';
 	export let title;
 	export let description;

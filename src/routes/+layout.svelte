@@ -3,7 +3,7 @@
 
 
 <div class="jumbotron">
-	<h1><a style="color:inherit;" href="/">Games</a></h1>
+	<h1><a style="color:inherit;" href="/">Gaming Hub</a></h1>
 </div>
 
 <section>
@@ -11,13 +11,10 @@
 </section>
 
 
-<div class="footer">
-	<h1> Supper Doggerzs </h1>
-</div>
-
-
 <style>
+
 	:global(body) {
+		background-color: #8A624D;
 		margin: 0;
 	}
 
@@ -30,14 +27,6 @@
 
 	section {
 		margin: 40px;
-	}
-
-	.footer {
-		background-color: blue;
-		color: white;
-		padding: 40px;
-		text-align: center;
-		bottom:0;
 	}
 
 </style>
