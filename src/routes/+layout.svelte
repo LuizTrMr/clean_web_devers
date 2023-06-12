@@ -3,7 +3,8 @@
 
 
 <div class="jumbotron">
-	<h1><a style="color:inherit;" href="/">Gaming Hub</a></h1>
+	<h1><a href="/">Gaming Hub</a></h1>
+	<h3>Follow my programming adventures at <a href="https://github.com/LuizTrMr">LuizTrMr</a></h3>
 </div>
 
 <section>
@@ -27,6 +28,12 @@
 
 	section {
 		margin: 40px;
+		display: flex;
+		justify-content: center;
+		align-items: center;}
+
+	a {
+		color:inherit;
 	}
 
 </style>

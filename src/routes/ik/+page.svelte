@@ -4,7 +4,9 @@
 </script>
 
 <div class="container">
-	<iframe src="Kinematics/Kinematics.html"></iframe>
+	<div class="wrapper">
+		<iframe title="Game" src="Kinematics/Kinematics.html"></iframe>
+	</div>
 	<div class="info">
 		<h1>{title}</h1>
 		{#each description as paragraph}
@@ -19,9 +21,23 @@
 		background-color: #713827;
 	}
 
-	iframe {
+	.wrapper {
 		width : 100%;
-		min-height: 80vh;
+		height: 80vh;
+		margin: 0 auto;
+		position: relative;
+		background-position: 50% 50%;
+	}
+
+	iframe {
+		height: 0;
+		width: 0;
+		border: 0;
+		box-sizing: border-box;
+		max-height: 100%;
+		max-width: 100%;
+		min-height: 100%;
+		min-width: 100%;
 	}
 
 	.info {

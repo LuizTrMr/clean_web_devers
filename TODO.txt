@@ -1,4 +1,0 @@
-Add jumbotron
-	- Link to my GitHub
-	- Email link?
-Fix Iframe slighlty going out of div
