@@ -1,13 +1,14 @@
 <script>
 	import Card       from "../components/Card.svelte";
 	import kinematics from '$lib/images/kinematics.png';
+	import cards      from '$lib/images/cards.png';
 </script>
 
 
 <div class="container">
 	<Card title="Inverse Kinematics" description="Inverse Kinematics Demo built with Godot 3.0" thumbnail={kinematics} url="/ik"/>
+	<Card title="Cards" description="Cards Demo" thumbnail={cards} url="/cards"/>
 	<Card title="Kinematics2" description="Inverse Kinematics Demo2" thumbnail={kinematics} url="/ik"/>
-	<Card title="Inverse Kinematics" description="Inverse Kinematics Demo built with Godot 3.0" thumbnail={kinematics} url="/ik"/>
 	<Card title="Kinematics2" description="Inverse Kinematics Demo2" thumbnail={kinematics} url="/ik"/>
 </div>
 
